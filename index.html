@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Cassandra Birkbeck">
+    <title>Crystal Collector</title>
+    <link rel="stylesheet" type= "text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type= "text/css" href="assets/css/style.css">
+    <link rel="icon" href="assets/images/crystal icon.png">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script type = "text/javascript" src= "assets/javascript/game.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+</head>
+<body>
+    <!--Main Heading-->
+    <div class= "mainheader text-center">
+        <h1> CRYSTAL COLLECTOR</h1>
+    </div> 
+
+    <!--Rules Container-->
+    <div class= "row">
+        <div class= "col-lg-12 rules">
+            <p> Each crystal contains a hidden value that is only revealed once clicked. With each click, you will add the crystal's value to your total score. You will win the game if your total score matches the magic number. The game is lost if your total score exceeds the magic number. Good Luck!</p>
+        </div>
+    </div>
+
+    <!--Magic Number-->
+    <div class= "row">
+        <div class = "col-lg-12 text-center magic-number">
+           <h3>Magic Number: </h3>
+            <h3 id= "magicNumber"> </h3>
+        </div>
+    </div>    
+    <!-- Crystals-->
+
+    <div class="container">
+        <div class= "row">
+            <div class = "col-sm-6 col-md-3 col-lg-3 text-center">
+                <img class ="crystalimage img-responsive" id= "crystal1" src="assets/images/crystal1.png" alt="Crystal 1"/>
+            </div>
+
+            <div class = "col-sm-6 col-md-3 col-lg-3 text-center">
+                <img class = "crystalimage img-responsive" id = "crystal2" src = "assets/images/crystal2.png" alt="Crystal 2">
+            </div>
+
+            <div class = "col-sm-6 col-md-3 col-lg-3 text-center">
+                <img class = "crystalimage img-responsive" id = "crystal3" src = "assets/images/crystal3.png" alt = "Crystal 3">
+            </div>
+
+            <div class = "col-sm-6 col-md-3 col-lg-3 text-center">
+                <img class = "crystalimage img-responsive" id = "crystal4" src = "assets/images/crystal4.png" alt = "Crystal 4">
+            </div>
+        </div>
+    </div>
+
+    <!--Scoreboard-->
+    <div class= "row text-center">
+        <div class ="col-lg-4 total">
+            <h3> Total Score: </h3>
+            <h3 id ="totalscore"></h3>
+           
+        </div>
+
+        <div class= "col-lg-4 button">
+            <h3 id="reset"></h3>
+            <h3 id="winorlose"></h3>
+            <button type="button" class="btn btn-light btn-lg">Play Again!</button>
+        </div> 
+
+        <div class = "col-lg-4 scores">
+            <p class = "score">Wins: <span id="wins"></span></p>
+            <p class = "score">Losses: <span id= "losses"></span></p>
+        </div>
+    </div>
+
+    
+</body>
+</html>
