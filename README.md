@@ -1,6 +1,6 @@
 # unit-4-game
 
-#Crystal Collector
+### Crystal Collector
 
 Cyrstal Collector is an interactive web browser game that dynamically updates the HTML with the jQuery library.
 
@@ -16,5 +16,5 @@ Cyrstal Collector is an interactive web browser game that dynamically updates th
 * When the game begins again, the player should see a new random number. Also, all the crystals will have four new hidden values. 
 * The app will show the number of games the player wins and loses. 
 
-##A Look at the App
-![Screenshot](https://github.com/cnbirkbeck/unit-4-game/tree/master/assets/images/crystalgame.png)
+### A Look at the App
+![Screenshot] (https://github.com/cnbirkbeck/unit-4-game/blob/master/assets/images/crystalgame.png)
