@@ -17,4 +17,4 @@ Cyrstal Collector is an interactive web browser game that dynamically updates th
 * The app will show the number of games the player wins and loses. 
 
 ### A Look at the App
-![Screenshot] (https://github.com/cnbirkbeck/unit-4-game/blob/master/assets/images/crystalgame.png)
+![CrystalGameScreenshot] (https://github.com/cnbirkbeck/unit-4-game/blob/master/assets/images/crystalgame.png)
